@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="QualityProfile" load_steps=2 format=3 uid="uid://ujnws1bf1s8b"]
+
+[ext_resource type="Script" uid="uid://c13cqgfcvthcw" path="res://src/core/resources/quality_profile.gd" id="1_id7tf"]
+
+[resource]
+script = ExtResource("1_id7tf")
+id = "deck_low"
+resolution_scale = 0.85
+glow_enabled = false
+particles_max = 200
+shadows_enabled = false
+shader_quality = 0
+metadata/_custom_type_script = "uid://c13cqgfcvthcw"

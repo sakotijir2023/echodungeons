@@ -1,0 +1,103 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Echo Dungeons"
+run/main_scene="uid://sbq05t6bupjf"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Platform="*res://autoload/platform.gd"
+RNG="*res://autoload/rng.gd"
+SceneLoader="*res://autoload/scene_loader.gd"
+Balance="*res://autoload/balance.gd"
+FX="*res://autoload/fx.gd"
+Save="*res://autoload/save.gd"
+Signals="*res://autoload/signals.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="viewport"
+
+[input]
+
+move_left={
+"deadzone": 0.2,
+"events": []
+}
+move_right={
+"deadzone": 0.2,
+"events": []
+}
+move_up={
+"deadzone": 0.2,
+"events": []
+}
+move_down={
+"deadzone": 0.2,
+"events": []
+}
+attack_primary={
+"deadzone": 0.2,
+"events": []
+}
+attack_secondary={
+"deadzone": 0.2,
+"events": []
+}
+dodge={
+"deadzone": 0.2,
+"events": []
+}
+ward={
+"deadzone": 0.2,
+"events": []
+}
+deflect={
+"deadzone": 0.2,
+"events": []
+}
+ability_1={
+"deadzone": 0.2,
+"events": []
+}
+ability_2={
+"deadzone": 0.2,
+"events": []
+}
+ability_3={
+"deadzone": 0.2,
+"events": []
+}
+ability_4={
+"deadzone": 0.2,
+"events": []
+}
+consume={
+"deadzone": 0.2,
+"events": []
+}
+radial_menu={
+"deadzone": 0.2,
+"events": []
+}
+pause={
+"deadzone": 0.2,
+"events": []
+}
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

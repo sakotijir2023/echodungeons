@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="QualityProfile" load_steps=2 format=3 uid="uid://djnsnfkx6mn26"]
+
+[ext_resource type="Script" uid="uid://c13cqgfcvthcw" path="res://src/core/resources/quality_profile.gd" id="1_qdaho"]
+
+[resource]
+script = ExtResource("1_qdaho")
+id = "desktop_high"
+resolution_scale = 1.0
+glow_enabled = true
+shadows_enabled = true
+shader_quality = 2
+metadata/_custom_type_script = "uid://c13cqgfcvthcw"

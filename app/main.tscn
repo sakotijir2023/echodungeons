@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://sbq05t6bupjf"]
+
+[ext_resource type="Script" uid="uid://el6beyd348h8" path="res://app/main.gd" id="1_yblnd"]
+
+[sub_resource type="Environment" id="Environment_108p4"]
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_yblnd"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_yblnd")
+
+[node name="GameRoot" type="Node2D" parent="."]
+
+[node name="UIRoot" type="CanvasLayer" parent="."]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_108p4")
+camera_attributes = SubResource("CameraAttributesPractical_yblnd")
