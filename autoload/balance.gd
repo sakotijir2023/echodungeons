@@ -9,4 +9,4 @@ var shard_drop_chance := 0.25
 var shard_min_max := Vector2i(1, 3)
 
 func shards_for_drop() -> int:
-	return RNG.rangei(shard_min_max.x, shard_min_max.y)  # uses your RNG autoload
+	return RNG.rangei(shard_min_max.x, shard_min_max.y)  ## RNG Overload ##
